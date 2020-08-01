@@ -19,7 +19,7 @@ const useStyles = makeStyles((theme) => ({
         display: 'block',
         margin:'1rem auto',
         width: theme.spacing(30),
-        height: theme.spacing(30)
+        height: theme.spacing(33)
     
       },
     rightContainer:{
@@ -40,10 +40,10 @@ const useStyles = makeStyles((theme) => ({
     },
     skills: {
         justify: 'center',
-        width:'50%',
+        width:'70%',
         padding:'0.5rem 0 1rem 5rem ',
         '& > *': {
-            margin: theme.spacing(0.7),
+            margin: theme.spacing(0.9),
         },
     },
 

@@ -19,7 +19,7 @@ const useStyle = makeStyles((theme) => ({
         fontSize:48,
         color:'whitesmoke',
         fontWeight:500,
-        paddingTop:theme.spacing(42),
+        paddingTop:theme.spacing(44),
     }
 
 
