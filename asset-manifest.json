@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.a5faa666.chunk.css",
-    "main.js": "/portfolio/static/js/main.40c71afd.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.40c71afd.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.d8b89538.chunk.css",
+    "main.js": "/portfolio/static/js/main.99e3d358.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.99e3d358.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.2f3a2d1a.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.2f3a2d1a.js.map",
-    "static/js/2.e089e48e.chunk.js": "/portfolio/static/js/2.e089e48e.chunk.js",
-    "static/js/2.e089e48e.chunk.js.map": "/portfolio/static/js/2.e089e48e.chunk.js.map",
+    "static/js/2.c7b63a97.chunk.js": "/portfolio/static/js/2.c7b63a97.chunk.js",
+    "static/js/2.c7b63a97.chunk.js.map": "/portfolio/static/js/2.c7b63a97.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.ea28793fa52ee877740a28dc733c6669.js": "/portfolio/precache-manifest.ea28793fa52ee877740a28dc733c6669.js",
+    "precache-manifest.84b89128bb6ad315cda9e77f9624cb5b.js": "/portfolio/precache-manifest.84b89128bb6ad315cda9e77f9624cb5b.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.a5faa666.chunk.css.map": "/portfolio/static/css/main.a5faa666.chunk.css.map",
-    "static/js/2.e089e48e.chunk.js.LICENSE.txt": "/portfolio/static/js/2.e089e48e.chunk.js.LICENSE.txt",
+    "static/css/main.d8b89538.chunk.css.map": "/portfolio/static/css/main.d8b89538.chunk.css.map",
+    "static/js/2.c7b63a97.chunk.js.LICENSE.txt": "/portfolio/static/js/2.c7b63a97.chunk.js.LICENSE.txt",
     "static/media/Reardo1.png": "/portfolio/static/media/Reardo1.de6b3426.png",
     "static/media/Reardo2.png": "/portfolio/static/media/Reardo2.424640f9.png",
     "static/media/Reardo3.png": "/portfolio/static/media/Reardo3.7017a48e.png",
@@ -26,8 +26,7 @@
     "static/media/attendanceapp6.jpg": "/portfolio/static/media/attendanceapp6.11aafe23.jpg",
     "static/media/attendanceapp7.jpg": "/portfolio/static/media/attendanceapp7.036f884e.jpg",
     "static/media/avatar.jpeg": "/portfolio/static/media/avatar.3de658d0.jpeg",
-    "static/media/App.css": "/portfolio/static/media/homepage.233b7132.jpg",
-    "static/media/me.jpg": "/portfolio/static/media/me.c19d3041.jpg",
+    "static/media/App.css": "/portfolio/static/media/me.b5303900.jpg",
     "static/media/search1.png": "/portfolio/static/media/search1.d7cbc1b3.png",
     "static/media/search2.png": "/portfolio/static/media/search2.5ec6b96e.png",
     "static/media/search3.png": "/portfolio/static/media/search3.9a079f41.png",
@@ -39,8 +38,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.2f3a2d1a.js",
-    "static/js/2.e089e48e.chunk.js",
-    "static/css/main.a5faa666.chunk.css",
-    "static/js/main.40c71afd.chunk.js"
+    "static/js/2.c7b63a97.chunk.js",
+    "static/css/main.d8b89538.chunk.css",
+    "static/js/main.99e3d358.chunk.js"
   ]
 }
