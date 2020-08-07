@@ -18,8 +18,8 @@ const useStyles = makeStyles((theme) => ({
     useravatar:{
         display: 'block',
         margin:'1rem auto',
-        width: theme.spacing(30),
-        height: theme.spacing(33)
+        width: theme.spacing(29),
+        height: theme.spacing(30)
     
       },
     rightContainer:{
@@ -31,7 +31,7 @@ const useStyles = makeStyles((theme) => ({
     },
     heading:{
         color:'whitesmoke',
-        margin:' 1rem auto',
+        margin:' 1.5rem auto',
         opacity:0.8,
         fontSize: 48,
         fontWeight:500,
@@ -39,11 +39,12 @@ const useStyles = makeStyles((theme) => ({
         fontFamily: "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif",
     },
     skills: {
+        display:'flex',
+        flexFlow:'column wrap',
         justify: 'center',
-        width:'70%',
-        padding:'0.5rem 0 1rem 5rem ',
+        padding:'1rem 2rem 0.5rem',
         '& > *': {
-            margin: theme.spacing(0.9),
+            margin: theme.spacing(1),
         },
     },
 

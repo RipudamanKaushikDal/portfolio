@@ -5,19 +5,32 @@
 
 .description{
   
-  height:100vh;
+  margin: 0px;
+  padding: 0px;
+  height: 100vh;
+  width:100%;
   text-align: center;
-  background: url(./images/homepage.jpg) no-repeat center center fixed;
-  background:cover;
-  -webkit-background:cover;
-  -moz-background:cover;
+  background: url(./images/homepage.jpg) no-repeat center center;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  background-size:cover;
  
+}
+
+.intro{
+  display: flex;
+  height: inherit;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 
 
+  
 
-.description h2{
+
+
+.description  h2{
   -webkit-animation: glow 1s ease-in-out infinite alternate;
   -moz-animation: glow 1s ease-in-out infinite alternate;
   animation: glow 1s ease-in-out infinite alternate;
@@ -27,11 +40,11 @@
 
 @keyframes glow {
   from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fc2647, 0 0 40px #fc2647, 0 0 50px #fc2647, 0 0 60px #fc2647, 0 0 70px #fc2647;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px orangered, 0 0 40px orangered, 0 0 50px orangered, 0 0 60px orangered, 0 0 70px orangered;
   }
   
   to {
-    text-shadow: 0 0 20px #fff, 0 0 30px #ff0055, 0 0 40px #ff0055, 0 0 50px #ff0055, 0 0 60px #ff0055, 0 0 70px #ff0055, 0 0 80px #ff0055;
+    text-shadow: 0 0 20px #fff, 0 0 30px orangered, 0 0 40px #f40d30, 0 0 50px #f40d30, 0 0 60px #f40d30, 0 0 70px #f40d30, 0 0 80px #f40d30;
   }
 }
 
@@ -49,6 +62,13 @@
 	overflow-y: scroll;
 	transition: 0.4s ease-out;
 
+}
+
+.profile {
+  height: 100vh;
+  width: 100vw;
+  background: url(./images/me.jpg) no-repeat center center;
+  background-size: cover;
 }
 
 .projectdetails .screenshots{
