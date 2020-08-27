@@ -36,7 +36,7 @@ function Homepage(){
         <Grid xs={12} md ={12} lg={12} className='description'>
             <div className="intro">
                 <Grow in='true' timeout={3000} >
-                    <Typography  variant= 'h1' className={classes.header}>Hi, <span style={{fontSize:'48px'}}>I AM RIPUDAMAN</span> </Typography>              
+                    <Typography  variant= 'h1' className={classes.header}>Hi, <span style={{fontSize:'48px'}}>I AM <br/> RIPUDAMAN</span> </Typography>              
                 </Grow>
                     
             
