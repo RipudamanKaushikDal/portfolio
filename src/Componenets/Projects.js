@@ -28,6 +28,10 @@ const useStyles=makeStyles({
   cards:{
     maxWidth:300,
     margin:'3rem auto',
+    transition: 'transform 100ms ease-in',
+    "&:hover": {
+      transform: 'scale(1.07)'
+    }
   }
 })
 

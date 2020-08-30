@@ -18,7 +18,7 @@ const useStyles = makeStyles((theme) => ({
     useravatar:{
         display: 'block',
         margin:'1rem auto',
-        width: theme.spacing(29),
+        width: theme.spacing(30),
         height: theme.spacing(30)
     
       },
@@ -27,6 +27,7 @@ const useStyles = makeStyles((theme) => ({
         height:'100%',
         background:'black',
         color:'white',
+        zIndex:1,
         fontFamily: "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif",
     },
     heading:{

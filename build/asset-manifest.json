@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.f94053cf.chunk.css",
-    "main.js": "/portfolio/static/js/main.e000e056.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.e000e056.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.1237df6d.chunk.css",
+    "main.js": "/portfolio/static/js/main.6e1e1888.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.6e1e1888.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.2f3a2d1a.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.2f3a2d1a.js.map",
     "static/js/2.c7b63a97.chunk.js": "/portfolio/static/js/2.c7b63a97.chunk.js",
     "static/js/2.c7b63a97.chunk.js.map": "/portfolio/static/js/2.c7b63a97.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.39eb7b575a095d61931f10f567c8b7fa.js": "/portfolio/precache-manifest.39eb7b575a095d61931f10f567c8b7fa.js",
+    "precache-manifest.d753102c2c49744f541299c218c269df.js": "/portfolio/precache-manifest.d753102c2c49744f541299c218c269df.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.f94053cf.chunk.css.map": "/portfolio/static/css/main.f94053cf.chunk.css.map",
+    "static/css/main.1237df6d.chunk.css.map": "/portfolio/static/css/main.1237df6d.chunk.css.map",
     "static/js/2.c7b63a97.chunk.js.LICENSE.txt": "/portfolio/static/js/2.c7b63a97.chunk.js.LICENSE.txt",
     "static/media/Reardo1.png": "/portfolio/static/media/Reardo1.de6b3426.png",
     "static/media/Reardo2.png": "/portfolio/static/media/Reardo2.424640f9.png",
     "static/media/Reardo3.png": "/portfolio/static/media/Reardo3.7017a48e.png",
     "static/media/Reardo4.png": "/portfolio/static/media/Reardo4.b7fc209a.png",
     "static/media/Reardo5.png": "/portfolio/static/media/Reardo5.bf7a3bc7.png",
-    "static/media/Resumephoto.jpg": "/portfolio/static/media/Resumephoto.49e68fcf.jpg",
+    "static/media/Resumephoto.jpg": "/portfolio/static/media/Resumephoto.0a0d4c21.jpg",
     "static/media/attendanceapp1.jpg": "/portfolio/static/media/attendanceapp1.fa75a914.jpg",
     "static/media/attendanceapp2.jpg": "/portfolio/static/media/attendanceapp2.157e02cd.jpg",
     "static/media/attendanceapp3.jpg": "/portfolio/static/media/attendanceapp3.e6656e48.jpg",
@@ -39,7 +39,7 @@
   "entrypoints": [
     "static/js/runtime-main.2f3a2d1a.js",
     "static/js/2.c7b63a97.chunk.js",
-    "static/css/main.f94053cf.chunk.css",
-    "static/js/main.e000e056.chunk.js"
+    "static/css/main.1237df6d.chunk.css",
+    "static/js/main.6e1e1888.chunk.js"
   ]
 }

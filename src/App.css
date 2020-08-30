@@ -48,6 +48,7 @@
 }
 
 @keyframes glow {
+
   from {
     text-shadow: 0 0 0 white
   }
