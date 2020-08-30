@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0162ea6c95a03689ca268ef6768882f1",
+    "revision": "1fb27da1a5a83615c3e4ca4a26da0a21",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "c9088ceaf133f241acfd",
-    "url": "/portfolio/static/css/main.f94053cf.chunk.css"
+    "revision": "1533688d7ff6b1c7c850",
+    "url": "/portfolio/static/css/main.1237df6d.chunk.css"
   },
   {
     "revision": "ddf0bea9733b34d5a77e",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.c7b63a97.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c9088ceaf133f241acfd",
-    "url": "/portfolio/static/js/main.e000e056.chunk.js"
+    "revision": "1533688d7ff6b1c7c850",
+    "url": "/portfolio/static/js/main.6e1e1888.chunk.js"
   },
   {
     "revision": "d28cbdc78d9bbca44b19",
@@ -44,8 +44,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/Reardo5.bf7a3bc7.png"
   },
   {
-    "revision": "49e68fcffa3957f74b6d2ae9615eb4d0",
-    "url": "/portfolio/static/media/Resumephoto.49e68fcf.jpg"
+    "revision": "0a0d4c215bf33087dffca1c22694d58d",
+    "url": "/portfolio/static/media/Resumephoto.0a0d4c21.jpg"
   },
   {
     "revision": "fa75a91464d8e37756891b20dc824193",
