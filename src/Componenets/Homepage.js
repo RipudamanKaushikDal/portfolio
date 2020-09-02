@@ -43,8 +43,8 @@ function Homepage(){
                 <Typography  variant='h2' className={classes.footer}>
                     Full-Stack Developer
                 </Typography>
+
             </div>
-            
                 
 
             

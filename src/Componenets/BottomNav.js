@@ -11,10 +11,11 @@ const useStyles= makeStyles({
             minWidth:0,
             maxWidth:200,
             width:'100%',
-            margin:'0 0 0 0',
-            padding:'0 0 0 0',
+            margin:'0',
+            padding:'0',
             background:'grey',
-            opacity:0.9
+            opacity:0.9,
+            overflowX:'hidden',
         },
     icons:{
         padding:0,

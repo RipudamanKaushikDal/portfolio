@@ -38,7 +38,7 @@ function AboutMe(){
              
              <Grid item style={{color:'whitesmoke',margin:'0rem 1rem'}} >
                  <Typography variant='h6' >
-                 I am a full-stack developer who loves to code. On a constant lookout for fresh ideas to pick up 
+                 I am a full-stack developer who loves to code. I am on a constant lookout for fresh ideas to pick up 
                  and new things to learn. Space is my ideal destination, Music is where I wander-in, to get lost and Stories are what help me navigate.
                  A firm believer in the principle "A healthy mind inhabits a healthy body." 
                  My mantra "Eager to Start and Determined to Finish."
