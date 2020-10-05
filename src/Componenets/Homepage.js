@@ -1,71 +1,43 @@
-import React from 'react';
-import { makeStyles} from '@material-ui/core/styles';
-import Grid from '@material-ui/core/Grid';
-import Grow from '@material-ui/core/Grow';
-import Typography from '@material-ui/core/Typography';
-     
-const useStyle = makeStyles((theme) => ({
-
-    
-
-    header:{
-        color: 'whitesmoke',
-        opacity: 0.8,
-        fontSize: 70,
-        fontFamily: '-apple-system, BlinkMacSystemFont',
-        fontWeight: 500,
-        paddingTop:theme.spacing(5)
-    },
-
-    footer:{
-        fontSize:48,
-        color:'whitesmoke',
-        fontWeight:500,
-        paddingBottom:theme.spacing(9),
-      
-    }
+import React from "react";
+import resumephoto from '../images/Resumephoto.jpg'
+import IconButton from '@material-ui/core/IconButton'
+import InstagramIcon from '@material-ui/icons/Instagram';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import GitHubIcon from '@material-ui/icons/GitHub';
+import WorkIcon from '@material-ui/icons/Work';
 
 
-}));
+function Homepage() {
 
-function Homepage(){
-
-    const classes= useStyle();
-
-    return(   
-        <Grid xs={12} md ={12} lg={12} className='description'>
-            <div className="intro">
-                <Grow in='true' timeout={3000} >
-                    <Typography  variant= 'h1' className={classes.header}>Hi, <span style={{fontSize:'48px'}}>I AM <br/> RIPUDAMAN</span> </Typography>              
-                </Grow>
-                    
-            
-                <Typography  variant='h2' className={classes.footer}>
-                    Full-Stack Developer
-                </Typography>
-
+  return (
+    <div  className="description">
+      <div className="card__container">
+        <div className="card">
+          <figure className="front">
+            <img src={resumephoto} alt="dev"/>
+          </figure>
+          <figure className="back">
+            <h1>Ripudaman Kaushik</h1>
+            <h2>Full-Stack Developer</h2>
+            <div classname="links">
+              <IconButton href="https://www.peopleperhour.com/freelancer/development-it/ripudaman-kaushik-full-stack-developer-vmvannx#portfolio" target="_blank" >
+                <WorkIcon/>
+              </IconButton>
+              <IconButton href="https://www.instagram.com/ripudamankaushik/"  target="_blank"  >
+                <InstagramIcon/>
+              </IconButton>
+              <IconButton href="https://github.com/RipudamanKaushikDal" target="_blank">
+                <GitHubIcon />
+              </IconButton>
+              <IconButton href="https://www.linkedin.com/in/ripudamankaushik" target="_blank" >
+                <LinkedInIcon/>
+              </IconButton>
             </div>
-                
-
-            
-           
-        </Grid>
-            
-                    
-
-               
-                
-                
-            
-
-              
-            
-        
-        
-            
-            
-
-    )
+          </figure>
+        </div>
+      </div>
+    </div>
+  );
 }
 
-export default Homepage
+export default Homepage;
