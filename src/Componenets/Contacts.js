@@ -165,15 +165,15 @@ export default function Contacts(){
                     <Typography variant="h2" className={classes.heading}>Contact Me</Typography>
                 </Grid>
                 <Grid  item xs={10} sm={8} md={8}>
-                    <Inputfield name="client" value={state.Name || ""}  onChange={nameChange} color="secondary"
+                    <Inputfield name="client" value={state.Name || ""}  onChange={nameChange} color="secondary" required="true"
                        label="Name" variant='outlined' fullWidth={true} margin='dense' inputProps={{style:{color:'whitesmoke'}}} />
                 </Grid>
                 <Grid  item xs={10} sm={8} md={8}>
-                    <Inputfield name="sender" value={state.email || ""}  onChange={emailChange} color="secondary"
+                    <Inputfield name="sender" value={state.email || ""}  onChange={emailChange} color="secondary" required="true"
                      label="E-Mail" variant='outlined' fullWidth={true} margin='dense' inputProps={{style:{color:'whitesmoke'}}} />
                 </Grid>
                 <Grid  item xs={10} sm={8} md={8}>
-                    <Inputfield name="message" value={state.message || ""} onChange={messageChange} color="secondary"
+                    <Inputfield name="message" value={state.message || ""} onChange={messageChange} color="secondary" required="true"
                      label="Message" variant='outlined' multiline rows={4} fullWidth={true} margin='dense' inputProps={{style:{color:'whitesmoke'}}} />
                 </Grid>
                 <br />

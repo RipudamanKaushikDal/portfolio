@@ -41,7 +41,7 @@ function Projects(){
   const [projects,setProjects] = useState([]);
 
   const classes=useStyles();
-  const baseUrl = "https://ripudamanprojects.herokuapp.com";
+  const baseUrl = "https://ripudamanprojects.herokuapp.com"
 
   useEffect(() => {
     axios.get(baseUrl+"/projects")
@@ -62,7 +62,7 @@ function Projects(){
               <CardActionArea component={RouterLink} to={`${url}/${project.title}`}>
                   <CardMedia 
                     style={{height:265}}
-                    image={baseUrl+"/images/"+project.images[Math.floor(Math.random()*project.images.length)]}
+                    image={baseUrl+"/random_image/"+project.title}
                     />
                   <CardContent>
                     <Typography gutterBottom variant="h5" component="h2">

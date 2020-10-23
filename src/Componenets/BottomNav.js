@@ -13,7 +13,7 @@ const useStyles= makeStyles({
             width:'100%',
             margin:'0',
             padding:'0',
-            background:'grey',
+            background:'#111',
             opacity:0.9,
             overflowX:'hidden',
         },

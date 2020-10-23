@@ -27,8 +27,15 @@ const useStyles = makeStyles((theme) => ({
   sideBar:{
     width: 200,
     height:'100%', 
-    background:'#909090',
-    opacity:0.9
+ 
+  },
+
+  drawerPaper: {
+    width:200,
+    backgroundColor:'#111',
+    opacity:0.9,
+    color:"white",
+
   },
 
   useravatar:{
@@ -44,6 +51,10 @@ const useStyles = makeStyles((theme) => ({
       textDecoration: 'none',
       backgroundColor: 'tomato',
       },
+
+    '& .MuiSvgIcon-root': {
+      fill:"white"
+    }
 
   },
 
@@ -95,6 +106,9 @@ function Navigation(){
         open={state.left}
         onOpen={toggleDrawer(true)}
         onClose={toggleDrawer(false)}
+        classes={{
+          paper: classes.drawerPaper,
+        }}
       >
 
       <Box className={classes.sideBar} component='div' onClick={toggleDrawer(false)} onKeyDown={toggleDrawer(false)}>
